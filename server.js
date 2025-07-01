@@ -22,7 +22,7 @@ const __dirname = path.resolve();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://hunger-frontend-two.vercel.app/",
+    origin: "https://hunger-frontend-two.vercel.app",
     credentials: true,
   })
 );
